@@ -37,7 +37,6 @@
         android:backgroundTint="#F44336"
         android:layout_marginTop="5dp"/>
 
-    <!-- Tempat menampilkan data -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
