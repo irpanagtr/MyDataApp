@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 String user = etUsername.getText().toString();
                 String pass = etPassword.getText().toString();
 
-                // Sesuai soal UTS: admin & admin123
+                // Username admin & Password admin123
                 if (user.equals("admin") && pass.equals("admin123")) {
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putBoolean("isLoggedIn", true);
