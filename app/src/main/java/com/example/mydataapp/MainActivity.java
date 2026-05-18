@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 1. Inisialisasi semua View
+        // 1. Inisialisasi View
         etNim = findViewById(R.id.etNim);
         etNama = findViewById(R.id.etNama);
         etProdi = findViewById(R.id.etProdi);
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 // Validasi: Minimal NIM dan Nama harus diisi
                 if (!nim.isEmpty() && !nama.isEmpty()) {
 
-                    // Gabungkan semua data menjadi satu string (Per baris agar rapi)
+                    // Mengabungkan semua data menjadi satu
                     String info = "NIM: " + nim +
                             "\nNama: " + nama +
                             "\nProdi: " + prodi +
